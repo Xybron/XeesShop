@@ -209,6 +209,9 @@ svg {
 .fullview {
     width: 100vw;
     min-height: 100vh;
+}
+
+.xee_shopSection {
     position: absolute;
     z-index: 9;
     top: 100vh;
@@ -217,4 +220,41 @@ svg {
 .xee_shopNav {
     position: fixed;
     z-index: 999;
+}
+
+.xee_shopSection header {
+    min-height: 70vh;
+    background-color: #f0f0f0;
+    background-image: url(../images/sneakers.jpeg);
+    background-attachment: fixed;
+    position: relative;
+}
+
+.xee_shopBody svg {
+    width: 100%;
+    position: absolute;
+    top: -19%;
+}
+
+.xee_shopBody {
+    height: 80vh;
+    position: relative;
+}
+
+.xee_categories {
+    position: fixed;
+    left: 3%;
+    top: 30%;
+    height: 15vw;
+    font-size: 70%;
+    z-index: 99;
+}
+
+.xee_categories ul {
+    list-style: none;
+    height: inherit;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    color: rgb(0, 174, 239);
 }
