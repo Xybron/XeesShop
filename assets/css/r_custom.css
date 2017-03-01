@@ -234,7 +234,7 @@ svg {
 .xee_shopBody svg {
     width: 100%;
     position: absolute;
-    top: -15%;
+    top: -12%;
 }
 
 .xee_shopBody {
@@ -291,7 +291,6 @@ svg {
 }
 
 .xees_products {
-    background-color: lightgray;
     width: 80vw;
     margin: 5% auto 0 auto;
     display: flex;
@@ -373,4 +372,17 @@ svg {
     color: yellow;
     width: 50%;
     margin: 0 auto;
+}
+
+.xee_ad {
+    position: relative;
+    height: 40vh;
+    background-image: url(../images/ad.jpeg);
+    background-attachment: fixed;
+}
+
+.xees_footer {
+    height: 20vh;
+    background-color: rgb(0, 174, 239);
+    text-align: center;
 }
