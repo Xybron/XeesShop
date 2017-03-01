@@ -157,6 +157,7 @@
 
 .xee_home {
     height: 100vh;
+    position: fixed;
 }
 
 .xee_home footer {
@@ -207,5 +208,13 @@ svg {
 
 .fullview {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
+    position: absolute;
+    z-index: 9;
+    top: 100vh;
+}
+
+.xee_shopNav {
+    position: fixed;
+    z-index: 999;
 }
