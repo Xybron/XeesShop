@@ -258,3 +258,33 @@ svg {
     flex-direction: column;
     color: rgb(0, 174, 239);
 }
+
+.xee_imgCpt {
+    position: relative;
+    top: 5vw;
+    left: 60%;
+}
+
+.xee_imgCpt h1 {
+    padding: 2% 20%;
+    margin: 5%;
+    background-color: rgb(0, 174, 239);
+    color: white;
+    font-size: 300%;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.capt1,
+.capt2 {
+    position: absolute;
+}
+
+.capt1 {
+    left: 5%;
+}
+
+.capt2 {
+    top: 5vw;
+    right: 10%;
+}
