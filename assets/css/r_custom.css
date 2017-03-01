@@ -27,6 +27,7 @@
 .r_navContent {
     position: fixed;
     z-index: 9;
+    padding-left: 5%;
 }
 
 .xee_profile {
@@ -202,4 +203,9 @@ svg {
 
 .xee_colors li:nth-child(7) {
     color: #ff0101;
+}
+
+.fullview {
+    width: 100vw;
+    height: 100vh;
 }
