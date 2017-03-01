@@ -233,11 +233,11 @@ svg {
 .xee_shopBody svg {
     width: 100%;
     position: absolute;
-    top: -19%;
+    top: -15%;
 }
 
 .xee_shopBody {
-    height: 80vh;
+    min-height: 80vh;
     position: relative;
 }
 
@@ -287,4 +287,24 @@ svg {
 .capt2 {
     top: 5vw;
     right: 10%;
+}
+
+.xees_products {
+    background-color: lightgray;
+    width: 80vw;
+    margin: 5% auto 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+
+.xees_products .xees_holder {
+    width: 25%;
+    height: 50vh;
+    background-color: white;
+    margin: 1vw;
+    border-radius: 2%;
+    overflow: hidden;
+    position: relative;
 }
