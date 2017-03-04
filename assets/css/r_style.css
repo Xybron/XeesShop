@@ -49,8 +49,8 @@ body {
 }
 
 .rMiddle {
-    display: block;
     margin: 0 auto;
+    text-align: center;
 }
 
 .r_contain {
@@ -60,7 +60,7 @@ body {
 }
 
 .r_wrap {
-    display: table;
+    display: inline-block;
 }
 
 
@@ -161,7 +161,7 @@ form {
     height: auto;
 }
 
-form > * {
+form>* {
     width: 100%;
     margin-top: 5%;
 }
@@ -172,9 +172,15 @@ form .r_input_divPar {
     padding-left: 10%;
 }
 
-.r_divField {
+.r_divField,
+label {
     height: 50px;
     display: block;
+}
+
+.r_divField input {
+    width: inherit;
+    height: inherit;
 }
 
 .r_radio {}
