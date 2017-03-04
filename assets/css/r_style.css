@@ -1,9 +1,16 @@
 /**
  Xybron Styles 
  Author : Ronald Nettey
- Last Updated : 20th February, 2017
+ Last Updated : 3rd March, 2017
  
  **/
+
+
+/*Custom fonts*/
+
+@import url(r_fonts.css);
+
+/**End of custom fonts**/
 
 
 /**Layout Style**/
