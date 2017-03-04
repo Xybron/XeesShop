@@ -1,153 +1,151 @@
-.xee_nav {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 60px;
-    height: 100vh;
-}
-
-.xee_nav li {
-    margin: 0 !important;
-    padding: 0 !important;
-    width: 50px;
-    height: 50px;
-    margin: 0 auto;
-    position: relative;
-}
-
-.xee_nav ul {
-    flex-direction: column;
-    align-items: center;
-    height: 300px;
-    background-color: rgb(0, 174, 239);
-    color: white;
-    text-align: center;
-}
-
-.r_navContent {
-    position: fixed;
-    z-index: 9;
-    padding-left: 5%;
-}
-
-.xee_profile {
-    width: inherit;
-    height: inherit;
-    display: flex;
-    justify-content: center;
-    align-content: center;
-}
-
-.xee_header {
-    width: 90vw;
-    height: 80vh;
-}
-
-.xee_home,
-.xee_header {
-    position: relative;
-}
-
-.xee_select ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-content: center;
-    padding: 0 50px;
-}
-
-.xee_shoeNews {
-    width: 80%;
-    height: auto;
-}
-
-.xee_shoeArea {
-    width: 100%;
-    height: 65vh;
-    position: relative;
-}
-
-.xee_shoeColor {
-    height: 10vh;
-}
-
-.xee_shoeName,
-.xee_shoeImage,
-.xee_add {
-    position: absolute;
-}
-
-.xee_shoeImage {
-    top: 10% !important;
-}
-
-.xee_shoeImage img {
-    width: 100%;
-    height: auto;
-}
-
-.xee_News {
-    width: 80%;
-    height: 80%;
-}
-
-.xee_News h1 {
-    text-align: center;
-    font-size: 20vw;
-}
-
-.xee_shoeImage {
-    width: inherit;
-    height: inherit;
-}
-
-.xee_shoeImage {
-    top: 0;
-}
-
-.xee_shoeName {
-    top: 2vw;
-    left: 20vw;
-}
-
-.xee_shoeName p {
-    background-color: rgb(0, 174, 239);
-    color: white;
-    padding: 4%;
-}
-
-.xees_shoeN {
-    position: relative;
-}
-
-.xee_add {
-    font-size: 4vw;
-    width: 5vw;
-    height: 5vw;
-    color: rgb(0, 174, 239);
-}
-
-.xee_News,
-.xee_add {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.xee_colors {
-    min-width: 50%;
-    font-size: 200%;
-}
-
-.xee_colors ul,
-.itemRev ul {
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-}
-
-
-/*
+    .xee_nav {
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 60px;
+        height: 100vh;
+    }
+    
+    .xee_nav li {
+        margin: 0 !important;
+        padding: 0 !important;
+        width: 50px;
+        height: 50px;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .xee_nav ul {
+        flex-direction: column;
+        align-items: center;
+        height: 300px;
+        background-color: rgb(0, 174, 239);
+        color: white;
+        text-align: center;
+    }
+    
+    .r_navContent {
+        position: fixed;
+        z-index: 9;
+        padding-left: 5%;
+    }
+    
+    .xee_profile {
+        width: inherit;
+        height: inherit;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+    }
+    
+    .xee_header {
+        width: 90vw;
+        height: 80vh;
+    }
+    
+    .xee_home,
+    .xee_header {
+        position: relative;
+    }
+    
+    .xee_select ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-content: center;
+        padding: 0 50px;
+    }
+    
+    .xee_shoeNews {
+        width: 80%;
+        height: auto;
+    }
+    
+    .xee_shoeArea {
+        width: 100%;
+        height: 65vh;
+        position: relative;
+    }
+    
+    .xee_shoeColor {
+        height: 10vh;
+    }
+    
+    .xee_shoeName,
+    .xee_shoeImage,
+    .xee_add {
+        position: absolute;
+    }
+    
+    .xee_shoeImage {
+        top: 10% !important;
+    }
+    
+    .xee_shoeImage img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .xee_News {
+        width: 80%;
+        height: 80%;
+    }
+    
+    .xee_News h1 {
+        text-align: center;
+        font-size: 20vw;
+    }
+    
+    .xee_shoeImage {
+        width: inherit;
+        height: inherit;
+    }
+    
+    .xee_shoeImage {
+        top: 0;
+    }
+    
+    .xee_shoeName {
+        top: 2vw;
+        left: 20vw;
+    }
+    
+    .xee_shoeName p {
+        background-color: rgb(0, 174, 239);
+        color: white;
+        padding: 4%;
+    }
+    
+    .xees_shoeN {
+        position: relative;
+    }
+    
+    .xee_add {
+        font-size: 4vw;
+        width: 5vw;
+        height: 5vw;
+        color: rgb(0, 174, 239);
+    }
+    
+    .xee_News,
+    .xee_add {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .xee_colors {
+        min-width: 50%;
+        font-size: 200%;
+    }
+    
+    .xee_colors ul,
+    .itemRev ul {
+        list-style: none;
+        display: flex;
+        justify-content: space-around;
+    }
+    /*
 .xee_colors li {
     width: 50px;
     height: 50px;
@@ -155,335 +153,500 @@
     border-radius: 50%;
 }
 */
-
-.xee_home {
-    height: 100vh;
-    position: fixed;
-}
-
-.xee_home footer {
-    position: absolute;
-    bottom: 5%;
-    left: 0;
-    right: 0;
-}
-
-.xee_home svg {
-    width: 50px;
-    height: auto;
-    position: absolute;
-    right: 0;
-}
-
-.r_nav {
-    background: transparent;
-}
-
-.xee_colors li:nth-child(1) {
-    color: #451456;
-}
-
-.xee_colors li:nth-child(2) {
-    color: #abdc23;
-}
-
-.xee_colors li:nth-child(3) {
-    color: #4bbccd;
-}
-
-.xee_colors li:nth-child(4) {
-    color: #bcaad2;
-}
-
-.xee_colors li:nth-child(5) {
-    color: #6651bb;
-}
-
-.xee_colors li:nth-child(6) {
-    color: orange;
-}
-
-.xee_colors li:nth-child(7) {
-    color: #ff0101;
-}
-
-.fullview {
-    width: 100vw;
-    min-height: 100vh;
-}
-
-.xee_shopSection {
-    position: absolute;
-    z-index: 9;
-    top: 100vh;
-}
-
-.xee_shopNav {
-    position: fixed;
-    z-index: 999;
-}
-
-.xee_shopSection header {
-    min-height: 70vh;
-    background-color: #f0f0f0;
-    background-image: url(../images/sneakers.jpeg);
-    background-attachment: fixed;
-    position: relative;
-}
-
-.svgC svg {
-    width: 100vw;
-    height: auto;
-}
-
-.xee_shopBody {
-    min-height: 80vh;
-    position: relative;
-    top: -100px;
-}
-
-.xee_categories {
-    position: fixed;
-    left: 3%;
-    top: 30%;
-    height: 15vw;
-    font-size: 70%;
-    z-index: 99;
-}
-
-.xee_categories ul {
-    list-style: none;
-    height: inherit;
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    color: rgb(0, 174, 239);
-}
-
-.xee_imgCpt {
-    position: relative;
-    top: 5vw;
-    left: 60%;
-}
-
-.xee_imgCpt h1 {
-    padding: 2% 20%;
-    margin: 5%;
-    background-color: rgb(0, 174, 239);
-    color: white;
-    font-size: 300%;
-    text-align: center;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.capt1,
-.capt2,
-.capt3 {
-    position: absolute;
-}
-
-.capt1 {
-    left: 5%;
-}
-
-.capt2 {
-    top: 5vw;
-    right: 10%;
-}
-
-.xees_products {
-    width: 80vw;
-    margin: 5% auto 0 auto;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    position: relative;
-}
-
-.xees_products .xees_holder {
-    width: 25%;
-    height: 50vh;
-    background-color: white;
-    margin: 1vw;
-    border-radius: 2%;
-    overflow: hidden;
-    position: relative;
-}
-
-.xees_itemPic {
-    background-color: white;
-    height: 70%;
-    position: relative;
-}
-
-.xees_itemDeets {
-    height: 30%;
-    position: relative;
-    background-color: rgb(0, 174, 239);
-}
-
-.xees_itemDeets svg {
-    width: 100%;
-    height: auto;
-    position: absolute;
-    top: -20%;
-}
-
-.xPix {
-    width: 100%;
-    height: 50%;
-}
-
-.xPix img {
-    width: 100%;
-    height: auto;
-}
-
-.xFunct {
-    padding: 10%;
-    position: absolute;
-    width: 50%;
-}
-
-.xFunct p:nth-child(1) {
-    float: left;
-}
-
-.xFunct p:nth-child(2) {
-    float: right;
-}
-
-.itemPrice {
-    font-size: 300%;
-    float: right;
-    margin-right: 5%;
-    color: white;
-    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
-}
-
-.itemName {
-    clear: both;
-    text-align: center;
-    margin: 0 auto;
-    margin-bottom: 2%;
-}
-
-.itemName * {
-    font-family: 'Lato-Light';
-}
-
-.itemRev {
-    color: yellow;
-    width: 50%;
-    margin: 0 auto;
-}
-
-.xee_ad {
-    position: relative;
-    height: 40vh;
-    background-image: url(../images/ad.jpeg);
-    background-attachment: fixed;
-}
-
-.xees_footer {
-    min-height: 20vh;
-    background-color: rgb(0, 174, 239);
-    text-align: center;
-}
-
-
-/*Login*/
-
-.loginBack {
-    background-image: url(../images/login.jpg);
-}
-
-.loginBack .xees_holder {
-    width: 25%;
-    /*height: 70%;*/
-    padding: 2%;
-    position: absolute;
-    left: 18%;
-    top: 15%;
-    background-color: white;
-    border-radius: 2%;
-}
-
-.xees_holder form {
-    width: 100%;
-}
-
-.r_divField input {
-    border-top: none;
-    border-right: none;
-    border-left: none;
-    border-color: rgb(0, 174, 239);
-}
-
-.r_subBtn {
-    background-color: lawngreen;
-    border-radius: 50px;
-}
-
-.xee_sI {
-    width: 100px;
-    text-align: center;
-}
-
-.xee_sI button {
-    outline: none;
-    border: none;
-    background: none;
-    text-align: center;
-}
-
-.xees_tbleContain {
-    display: table-cell;
-    min-height: 50px;
-    vertical-align: middle;
-    min-width: 200px;
-}
-
-.signInBtn {
-    width: 80%;
-    margin-top: 2%;
-}
-
-.signInBtn button {
-    background-color: black;
-}
-
-.signUpBtn {
-    margin: 10% 0;
-}
-
-.siSect p {
-    font-size: 70%;
-}
-
-.lI {
-    top: 20%;
-    left: 70%;
-}
-
-.lI h1 {
-    background-color: black;
-    font-family: Bebas;
-}
-
-.lI .capt1 {
-    left: 0;
-}
-
-.lI .capt2 {
-    font-size: 140%;
-    top: 9vw;
-}
-
-.lI .capt3 {
-    top: 20vw;
-}
-
-.signUpBack {
-    background-image: url(../images/signup.jpeg);
-}
+    
+    .xee_home {
+        height: 100vh;
+        position: fixed;
+    }
+    
+    .xee_home footer {
+        position: absolute;
+        bottom: 5%;
+        left: 0;
+        right: 0;
+    }
+    
+    .xee_home svg {
+        width: 50px;
+        height: auto;
+        position: absolute;
+        right: 0;
+    }
+    
+    .r_nav {
+        background: transparent;
+    }
+    
+    .xee_colors li:nth-child(1) {
+        color: #451456;
+    }
+    
+    .xee_colors li:nth-child(2) {
+        color: #abdc23;
+    }
+    
+    .xee_colors li:nth-child(3) {
+        color: #4bbccd;
+    }
+    
+    .xee_colors li:nth-child(4) {
+        color: #bcaad2;
+    }
+    
+    .xee_colors li:nth-child(5) {
+        color: #6651bb;
+    }
+    
+    .xee_colors li:nth-child(6) {
+        color: orange;
+    }
+    
+    .xee_colors li:nth-child(7) {
+        color: #ff0101;
+    }
+    
+    .fullview {
+        width: 100vw;
+        min-height: 100vh;
+    }
+    
+    .xee_shopSection {
+        position: absolute;
+        z-index: 9;
+        top: 100vh;
+    }
+    
+    .xee_shopNav {
+        position: fixed;
+        z-index: 999;
+    }
+    
+    .xee_shopSection header {
+        min-height: 70vh;
+        background-color: #f0f0f0;
+        background-image: url(../images/sneakers.jpeg);
+        background-attachment: fixed;
+        position: relative;
+    }
+    
+    .svgC svg {
+        width: 100vw;
+        height: auto;
+    }
+    
+    .xee_shopBody {
+        min-height: 80vh;
+        position: relative;
+        top: -100px;
+    }
+    
+    .xee_categories {
+        position: fixed;
+        left: 3%;
+        top: 30%;
+        height: 15vw;
+        font-size: 70%;
+        z-index: 99;
+    }
+    
+    .xee_categories ul {
+        list-style: none;
+        height: inherit;
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        color: rgb(0, 174, 239);
+    }
+    
+    .xee_imgCpt {
+        position: relative;
+        top: 5vw;
+        left: 60%;
+    }
+    
+    .xee_imgCpt h1 {
+        padding: 2% 20%;
+        margin: 5%;
+        background-color: rgb(0, 174, 239);
+        color: white;
+        font-size: 300%;
+        text-align: center;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    .capt1,
+    .capt2,
+    .capt3 {
+        position: absolute;
+    }
+    
+    .capt1 {
+        left: 5%;
+    }
+    
+    .capt2 {
+        top: 5vw;
+        right: 10%;
+    }
+    
+    .xees_products {
+        width: 80vw;
+        margin: 5% auto 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        position: relative;
+    }
+    
+    .xees_products .xees_holder {
+        width: 25%;
+        height: 50vh;
+        background-color: white;
+        margin: 1vw;
+        border-radius: 2%;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .xees_itemPic {
+        background-color: white;
+        height: 70%;
+        position: relative;
+    }
+    
+    .xees_itemDeets {
+        height: 30%;
+        position: relative;
+        background-color: rgb(0, 174, 239);
+    }
+    
+    .xees_itemDeets svg {
+        width: 100%;
+        height: auto;
+        position: absolute;
+        top: -20%;
+    }
+    
+    .xPix {
+        width: 100%;
+        height: 50%;
+    }
+    
+    .xPix img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .xFunct {
+        padding: 10%;
+        position: absolute;
+        width: 50%;
+    }
+    
+    .xFunct p:nth-child(1) {
+        float: left;
+    }
+    
+    .xFunct p:nth-child(2) {
+        float: right;
+    }
+    
+    .itemPrice {
+        font-size: 300%;
+        float: right;
+        margin-right: 5%;
+        color: white;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    }
+    
+    .itemName {
+        clear: both;
+        text-align: center;
+        margin: 0 auto;
+        margin-bottom: 2%;
+    }
+    
+    .itemName * {
+        font-family: 'Lato-Light';
+    }
+    
+    .itemRev {
+        color: yellow;
+        width: 50%;
+        margin: 0 auto;
+    }
+    
+    .xee_ad {
+        position: relative;
+        height: 40vh;
+        background-image: url(../images/ad.jpeg);
+        background-attachment: fixed;
+    }
+    
+    .xees_footer {
+        min-height: 20vh;
+        background-color: rgb(0, 174, 239);
+        text-align: center;
+    }
+    /*Login*/
+    
+    .loginBack {
+        background-image: url(../images/login.jpg);
+    }
+    
+    .loginBack .xees_holder {
+        width: 25%;
+        /*height: 70%;*/
+        padding: 2%;
+        position: absolute;
+        left: 18%;
+        top: 15%;
+        background-color: white;
+        border-radius: 2%;
+    }
+    
+    .xees_holder form {
+        width: 100%;
+    }
+    
+    .r_divField input {
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        border-color: rgb(0, 174, 239);
+    }
+    
+    .r_subBtn {
+        background-color: lawngreen;
+        border-radius: 50px;
+    }
+    
+    .xee_sI {
+        width: 100px;
+        text-align: center;
+    }
+    
+    .xee_sI button {
+        outline: none;
+        border: none;
+        background: none;
+        text-align: center;
+    }
+    
+    .xees_tbleContain {
+        display: table-cell;
+        min-height: 50px;
+        vertical-align: middle;
+        min-width: 200px;
+    }
+    
+    .signInBtn {
+        width: 80%;
+        margin-top: 2%;
+    }
+    
+    .signInBtn button {
+        background-color: black;
+    }
+    
+    .signUpBtn {
+        margin: 10% 0;
+    }
+    
+    .siSect p {
+        font-size: 70%;
+    }
+    
+    .lI {
+        top: 20%;
+        left: 70%;
+    }
+    
+    .lI h1 {
+        background-color: black;
+        font-family: Bebas;
+    }
+    
+    .lI .capt1 {
+        left: 0;
+    }
+    
+    .lI .capt2 {
+        font-size: 140%;
+        top: 9vw;
+    }
+    
+    .lI .capt3 {
+        top: 20vw;
+    }
+    
+    .signUpBack {
+        background-image: url(../images/signup.jpeg);
+    }
+    /*Modal*/
+    
+    .modalBack {
+        background-color: black;
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .modalBack .xee_select {
+        width: 100%;
+        color: rgb(0, 174, 239);
+        font-size: 150%;
+    }
+    
+    .r_card {
+        min-width: 200px;
+        min-height: 70%;
+        width: 60%;
+        border-radius: 10px;
+        display: flex;
+        flex-wrap: wrap;
+        overflow: hidden;
+    }
+    
+    .r_col_left,
+    .r_col_right {
+        padding: 1%;
+    }
+    
+    .r_col_left {
+        width: 60%;
+    }
+    
+    .xees_ItemSelect {
+        width: 100%;
+        height: 100%;
+        background-color: white;
+    }
+    
+    .r_col_right {
+        width: 40%;
+    }
+    
+    .xees_ItemProfile {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        flex-direction: column;
+    }
+    
+    .xees_ItemProfile .wrapper {
+        padding: 5%;
+        background-color: white;
+    }
+    
+    .xee_ItemSelectPic {
+        width: 100%;
+        height: 80%;
+        position: relative;
+    }
+    
+    .xee_ItemSelectPic img {
+        height: auto;
+        width: inherit;
+    }
+    
+    .xee_ItemSelectDeets {
+        width: 100%;
+        height: inherit;
+    }
+    
+    .xee_Itemdesc {
+        text-align: left;
+        min-height: 100px;
+        line-height: 150%;
+        color: gray;
+    }
+    
+    .xee_quantCtrl {
+        min-height: 50px;
+    }
+    
+    .xee_quantCtrl {}
+    
+    .xee_quantCtrl h1 {
+        font-family: Bebas;
+        font-size: 250%;
+    }
+    
+    .xee_rateIt {
+        min-height: 20px;
+        padding-top: 5%;
+    }
+    
+    .xee_rateIt i {
+        color: lightgrey;
+    }
+    
+    .xee_addBtn {
+        min-height: 60px;
+        text-align: center;
+        font-size: 200%;
+        color: rgb(0, 174, 239);
+    }
+    
+    .xee_addBtn,
+    .xee_rateIt,
+    .xee_quantCtrl {
+        margin-top: 10%;
+    }
+    
+    .itemName h3 {
+        font-family: Bebas;
+    }
+    
+    .xee_quantity {
+        display: inline;
+        width: 30%;
+    }
+    
+    .xee_quantity p {
+        background-color: rgb(0, 174, 239);
+        padding: 5%;
+        margin: 2%;
+    }
+    
+    .numVar {
+        float: left;
+        width: 70%;
+        text-align: right;
+    }
+    
+    .numVar p {
+        background: none;
+        border-bottom: 1px solid rgb(0, 174, 239);
+    }
+    
+    .xee_quantity ul {
+        float: right;
+        list-style: none;
+    }
+    
+    .xee_quantity li {
+        width: 12px;
+        height: 12px;
+        background-color: rgb(0, 174, 239);
+        font-size: 11px;
+        margin: 15%;
+        text-align: center;
+        color: white;
+    }
+    
+    .amnt,
+    .xee_quantity {
+        display: inline-block;
+    }
+    
+    .amnt {
+        float: left;
+        font-size: 140%;
+        color: lawngreen;
+    }
+    
+    .xee_quantity {
+        float: right;
+    }
