@@ -562,6 +562,10 @@
         color: gray;
     }
     
+    .xee_Itemdesc p {
+        padding-top: 5%;
+    }
+    
     .xee_quantCtrl {
         min-height: 50px;
     }
