@@ -650,3 +650,17 @@
     .xee_quantity {
         float: right;
     }
+    /*Item Added Modal*/
+    
+    .alertM {
+        margin: 0 auto;
+    }
+    
+    .alertModal .r_card {
+        min-height: 45%;
+        text-align: center;
+    }
+    
+    .alertModal .itemName {
+        margin-top: -15%;
+    }
